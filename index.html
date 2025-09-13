@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Online Shooping Site....</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="bg-gray-200">
+  <nav class="bg-white flex py-4 px-6 items-center justify-between">
+    <img src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/fkheaderlogo_exploreplus-44005d.svg" alt="logo" class="h-8">
+
+    <div class="rounded-lg bg-gray-200 flex items-center h-10 px-5 flex-1 mx-6">
+      <i class="fa-solid fa-magnifying-glass"></i>
+      <input class="ml-2 w-full bg-transparent outline-none" type="text" placeholder="Search for products, brands and more">
+    </div>
+    <div class="relative inline-block group">
+      <button class="hover:bg-blue-600 rounded-lg flex items-center h-10 px-5 bg-white border" aria-haspopup="true" aria-expanded="false">
+        <i class="fa-solid fa-user mr-2"></i>
+        Login
+        <i class="fa-solid fa-chevron-down ml-2 text-sm"></i>
+      </button>
+
+      <div class="absolute right-0 mt-2 w-56 bg-white border rounded-lg shadow-lg hidden group-hover:block z-50 min-w-max" aria-hidden="true">
+        <ul class="py-2 text-gray-700">
+          <li><a href="#profile" class="block px-4 py-2 hover:bg-gray-100">My Profile</a></li>
+          <li><a href="#orders" class="block px-4 py-2 hover:bg-gray-100">Orders</a></li>
+          <li><a href="#wishlist" class="block px-4 py-2 hover:bg-gray-100">Wishlist</a></li>
+          <li><a href="#logout" class="block px-4 py-2 hover:bg-gray-100">Logout</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</body>
+</html>
